@@ -35,7 +35,7 @@ pipeline {
         stage('remove existing service') {
             steps {
                 
-               // sh 'docker service rm myservice'
+                sh 'docker service rm myservice'
             }
         }
 
